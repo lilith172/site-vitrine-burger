@@ -278,11 +278,11 @@ header {
 .about .right button {
     margin: 20px 0;
     padding: 5px 60px;
-    background-color: #27ae60;
+    background-color:whitesmoke;
     border: 0;
 }
 .about .right button a{
-    color: #fff;
+    color: #273e60;
     text-decoration: 0;
     font-weight: bolder;
 }
