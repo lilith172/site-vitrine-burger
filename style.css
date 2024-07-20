@@ -150,7 +150,8 @@ header {
     justify-content: center;
 }
 #home .right img {
-    width: 104%;
+    width: 99%;
+    margin-top: -5%;
  /*   animation: animate 2s linear;
     transition: 0.5s;
 }
@@ -169,13 +170,13 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(248, 173, 53, 0.386);
     padding: 50px 10px;
 }
 .mini_title {
     margin-top: 25px;
     font-size: 16px;
-    color: #27ae60;
+    color: whitesmoke;
     text-transform: capitalize;
 }
 .title {
@@ -194,7 +195,7 @@ header {
 .dishes .dish {
     height: 280px;
     width: 30%;
-    background-color: #fff;
+    background-color:rgba(248, 173, 53, 0.411);
     padding: 25px;
     display: flex;
     align-items: center;
@@ -203,24 +204,25 @@ header {
     border-radius: 6px;
     margin-bottom: 35px;
     transition: 0.5s;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
 .dishes .dish  img {
     width: 130px;
     height: 120px;
     margin-bottom: 15px;
+    border-radius: 50%;
 }
 .dishes .dish p {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 .dishes .dish a {
     margin-top: 10px;
     font-size: 14px;
     text-decoration: 0;
-    background-color: #27ae60;
+    background-color: rgba(248, 173, 53, 0.966);
     padding: 5px 60px;
     color: #fff;
     border-radius: 6px;
@@ -230,7 +232,7 @@ header {
     width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #27ae60;
+    background-color: #bc9c22;
 }
 
 /* about us CSS */
@@ -295,6 +297,7 @@ header {
     height: calc(100vh - 50px);
     flex-direction: column;
     padding: 0 10%;
+    background-color: rgb(236, 163, 187);
 }
 
 .comments {
@@ -302,6 +305,7 @@ header {
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .comments  .comment div {
    display: flex;
